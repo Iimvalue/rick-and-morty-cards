@@ -7,7 +7,7 @@ fetch("https://rickandmortyapi.com/api/character")
       let card = document.createElement("div");
       let img = document.createElement("img");
       let cardTitle = document.createElement("h5");
-      card.className = "card p-3";
+      card.className = "card p-3 shadow-lg p-3 mb-5 bg-body rounded";
       img.className = "card-img-top";
       cardTitle.className = "card-title text-center";
       cardTitle.innerText = char.name;
